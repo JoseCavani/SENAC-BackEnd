@@ -1,0 +1,84 @@
+07/06/2022 20:32:22	This log contains information about the import schema operation into project 'Database1' on computer 'LGE102D03' by user 'jose.souza3'.
+07/06/2022 20:32:22	Import of database schema has started.
+07/06/2022 20:32:25	Gathering database credentials
+07/06/2022 20:32:25	Gathering database options
+07/06/2022 20:32:25	Gathering users
+07/06/2022 20:32:25	Gathering roles
+07/06/2022 20:32:25	Gathering application roles
+07/06/2022 20:32:25	Gathering role memberships
+07/06/2022 20:32:25	Gathering filegroups
+07/06/2022 20:32:25	Gathering full-text catalogs
+07/06/2022 20:32:25	Gathering assemblies
+07/06/2022 20:32:25	Gathering certificates
+07/06/2022 20:32:25	Gathering asymmetric keys
+07/06/2022 20:32:25	Gathering symmetric keys
+07/06/2022 20:32:25	Gathering encrypted symmetric keys
+07/06/2022 20:32:25	Gathering schemas
+07/06/2022 20:32:25	Gathering XML schema collections
+07/06/2022 20:32:25	Gathering user-defined data types
+07/06/2022 20:32:25	Gathering user-defined types
+07/06/2022 20:32:25	Gathering table types
+07/06/2022 20:32:25	Gathering unique keys for table types
+07/06/2022 20:32:25	Gathering primary keys for table types
+07/06/2022 20:32:25	Gathering indexes for table types
+07/06/2022 20:32:25	Gathering check constraints for table types
+07/06/2022 20:32:25	Gathering default constraints for table types
+07/06/2022 20:32:25	Gathering partition functions
+07/06/2022 20:32:25	Gathering partition schemes
+07/06/2022 20:32:25	Gathering functions
+07/06/2022 20:32:25	Gathering encrypted functions
+07/06/2022 20:32:25	Gathering aggregates
+07/06/2022 20:32:25	Gathering procedures
+07/06/2022 20:32:25	Gathering encrypted procedures
+07/06/2022 20:32:25	Gathering tables
+07/06/2022 20:32:25	Gathering primary keys
+07/06/2022 20:32:25	Gathering unique constraints
+07/06/2022 20:32:25	Gathering foreign keys
+07/06/2022 20:32:25	Gathering default constraints
+07/06/2022 20:32:25	Gathering check constraints
+07/06/2022 20:32:25	Gathering views
+07/06/2022 20:32:25	Gathering encrypted views
+07/06/2022 20:32:25	Gathering indexes
+07/06/2022 20:32:25	Gathering statistics
+07/06/2022 20:32:25	Gathering full-text index stoplists
+07/06/2022 20:32:25	Gathering search property lists
+07/06/2022 20:32:25	Gathering search properties
+07/06/2022 20:32:25	Gathering full-text indexes
+07/06/2022 20:32:25	Gathering column store indexes
+07/06/2022 20:32:25	Gathering spatial indexes
+07/06/2022 20:32:25	Gathering XML indexes
+07/06/2022 20:32:25	Gathering Selective XML indexes
+07/06/2022 20:32:25	Gathering encrypted triggers
+07/06/2022 20:32:25	Gathering triggers
+07/06/2022 20:32:25	Gathering encrypted and clr ddl triggers
+07/06/2022 20:32:25	Gathering ddl triggers
+07/06/2022 20:32:25	Gathering synonyms
+07/06/2022 20:32:25	Gathering defaults
+07/06/2022 20:32:25	Gathering data constraint uddt bindings
+07/06/2022 20:32:25	Gathering rules
+07/06/2022 20:32:25	Gathering data constraint uddt bindings
+07/06/2022 20:32:25	Gathering message types
+07/06/2022 20:32:25	Gathering queues
+07/06/2022 20:32:25	Gathering contracts
+07/06/2022 20:32:25	Gathering services
+07/06/2022 20:32:25	Gathering event notifications
+07/06/2022 20:32:25	Gathering remote service bindings
+07/06/2022 20:32:25	Gathering broker priorities
+07/06/2022 20:32:25	Gathering signatures
+07/06/2022 20:32:25	Gathering data compression options
+07/06/2022 20:32:25	Gathering sequence types
+07/06/2022 20:32:25	Gathering security policies
+07/06/2022 20:32:25	Gather column encryption keys
+07/06/2022 20:32:25	Gathering column master keys
+07/06/2022 20:32:25	Gathering external data sources
+07/06/2022 20:32:25	Gathering external file formats
+07/06/2022 20:32:25	Gathering external tables
+07/06/2022 20:32:25	Gathering extended properties
+07/06/2022 20:32:25	Gathering credentials
+07/06/2022 20:32:25	Gathering logins
+07/06/2022 20:32:25	Gathering server audits
+07/06/2022 20:32:25	Scanning project for duplicate elements
+07/06/2022 20:32:25	Finished duplicate element processing
+07/06/2022 20:32:26	Finished importing database.
+07/06/2022 20:32:26	A summary of the import was saved to the following location: C:\Users\jose.souza3\source\repos\ExercicioBackEnd\Database1\Import Schema Logs\Database1_20220607113222.log
+07/06/2022 20:32:26	Click Finish to continue...

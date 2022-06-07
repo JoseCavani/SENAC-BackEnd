@@ -20,6 +20,22 @@ namespace ExercicioBackEnd.Controller
 
         #region Sql Queries
 
+
+        private const string sqlInserirComprarOuVender =
+           @"INSERT INTO [TBCOMPRA_E_VENDA]
+                (
+                    [VALOR],
+                    [NUMERO_CLIENTE],
+                    [NUMERO_PRODUTO]
+                )    
+                 VALUES
+                (
+                    @VALOR,
+                    @NUMERO_CLIENTE,
+                    @NUMERO_PRODUTO
+                );";
+
+
         private const string sqlInserir =
             @"INSERT INTO [TBESTOQUE]
                 (
@@ -169,6 +185,28 @@ namespace ExercicioBackEnd.Controller
 
             return registro;
         }
+
+
+        public void CompraEVenda(int valor,int clienteId,int ProdutoId)
+        {
+            SqlConnection conexaoComBanco = new SqlConnection(enderecoBanco);
+
+            SqlCommand comandoSelecao = new SqlCommand(sqlInserirComprarOuVender, conexaoComBanco);
+
+            comandoSelecao.Parameters.AddWithValue("VALOR", valor);
+            comandoSelecao.Parameters.AddWithValue("NUMERO_CLIENTE", clienteId);
+            comandoSelecao.Parameters.AddWithValue("NUMERO_PRODUTO", ProdutoId);
+
+            conexaoComBanco.Open();
+          comandoSelecao.ExecuteNonQuery();
+
+
+            conexaoComBanco.Close();
+
+        }
+
+
+
 
         private Estoque ConverterParaRegistro(SqlDataReader leitorDisciplina)
         {
