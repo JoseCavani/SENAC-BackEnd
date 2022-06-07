@@ -23,6 +23,7 @@ namespace ExercicioBackEnd
                         break;
                     case "3":
                         controller = new ControllerFornecedor();
+                        opcoes();
                         break;
                 }
 

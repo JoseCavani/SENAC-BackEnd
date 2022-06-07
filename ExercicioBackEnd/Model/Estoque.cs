@@ -20,7 +20,10 @@ namespace ExercicioBackEnd.Model
 
         public override string ToString()
         {
+            if (dataAlteracao != DateTime.MinValue)
             return $"{numero}\n{nome}\n{quantidade}\n{dataCadastro}\n{dataAlteracao}";
+            else
+                return $"{numero}\n{nome}\n{quantidade}\n{dataCadastro}";
         }
     }
 }

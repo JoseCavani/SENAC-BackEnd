@@ -30,9 +30,9 @@ namespace ExercicioBackEnd.Controller
                 )    
                  VALUES
                 (
-                    @NOME
-                    @QUANTIDADE
-                    @DATA_CADASTRO
+                    @NOME,
+                    @QUANTIDADE,
+                    @DATA_CADASTRO,
                     @DATA_ALTERACAO
                 );SELECT SCOPE_IDENTITY();";
 
@@ -41,10 +41,11 @@ namespace ExercicioBackEnd.Controller
 		        SET
 			        [NOME] = @NOME,
                     [QUANTIDADE] = @QUANTIDADE,
-                    [DATA_CADASTRO] = @DATA_CADASTRO,
                     [DATA_ALTERACAO] = @DATA_ALTERACAO
 		        WHERE
 			        [NUMERO] = @NUMERO";
+
+
 
         private const string sqlExcluir =
             @"DELETE FROM [TBESTOQUE]
@@ -53,6 +54,7 @@ namespace ExercicioBackEnd.Controller
 
         private const string sqlSelecionarTodos =
             @"SELECT 
+                 [NUMERO],
 		        [NOME],
                     [QUANTIDADE],
                     [DATA_CADASTRO],
@@ -62,6 +64,7 @@ namespace ExercicioBackEnd.Controller
 
         private const string sqlSelecionarPorNumero =
             @"SELECT 
+                     [NUMERO],
 		             [NOME],
                     [QUANTIDADE],
                     [DATA_CADASTRO],
