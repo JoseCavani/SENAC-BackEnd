@@ -1,0 +1,5 @@
+C:\Users\jose.souza3\source\repos\SENAC-BackEnd\obj\Debug\net5.0\Exercicio.vbproj.AssemblyReference.cache
+C:\Users\jose.souza3\source\repos\SENAC-BackEnd\obj\Debug\net5.0\Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jose.souza3\source\repos\SENAC-BackEnd\obj\Debug\net5.0\Exercicio.AssemblyInfoInputs.cache
+C:\Users\jose.souza3\source\repos\SENAC-BackEnd\obj\Debug\net5.0\Exercicio.AssemblyInfo.vb
+C:\Users\jose.souza3\source\repos\SENAC-BackEnd\obj\Debug\net5.0\Exercicio.vbproj.CoreCompileInputs.cache

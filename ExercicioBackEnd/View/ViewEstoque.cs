@@ -1,5 +1,5 @@
-﻿using Exercicio1.Controller;
-using Exercicio1.Model;
+﻿using ExercicioBackEnd.Controller;
+using ExercicioBackEnd.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,37 +8,32 @@ using System.Threading.Tasks;
 
 namespace ExercicioBackEnd.View
 {
-    public class ViewClienteFornecedor
+    internal class ViewEstoque
     {
-
-
-        internal Base Cadastro<T>() where T : Base
+        internal Estoque Cadastro()
         {
             Console.WriteLine("Nome");
             string nome = Console.ReadLine();
 
-            if (typeof(T)  == typeof(Cliente))
-            return new Cliente(0, nome);
-            else 
-            return new Fornecedor(0, nome);
+            Console.WriteLine("quantidade");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            return new Estoque(0, nome,quantidade,DateTime.Now);
         }
 
-        internal int PegaId()
+        internal int pegaId()
         {
             Console.WriteLine("id");
             return int.Parse(Console.ReadLine());
-            
         }
 
-        internal void MostrarTodos<T>(List<T> registros) where T : Base
+        internal void MostrarTodos(List<Estoque> registros)
         {
             foreach (var item in registros)
             {
-                item.ToString();
+                Console.WriteLine(item.ToString());
             }
             Console.ReadKey();
         }
     }
 }
-
-

@@ -1,5 +1,5 @@
-﻿using Exercicio1.Controller;
-using Exercicio1.Model;
+﻿using ExercicioBackEnd.Controller;
+using ExercicioBackEnd.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +34,7 @@ namespace ExercicioBackEnd.View
         {
             foreach (var item in registros)
             {
-                item.ToString();
+               Console.WriteLine(item.ToString());
             }
             Console.ReadKey();
         }
